@@ -31,6 +31,7 @@ int main() {
         std::cout << buffer;
     } while(isBufferFull);
 
-    write(newSocketFd, "Hello", 5);
+    write(newSocketFd, "<h1>Hello</h1>", 14);
+
     return 0;
 }
